@@ -1,0 +1,190 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Juan Diego Vélez</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            color: #222;
+        }
+
+        .hoja {
+            width: 850px;
+            max-width: 95%;
+            margin: 40px auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        header {
+            background: #172b4d;
+            color: white;
+            padding: 45px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .contenido {
+            padding: 35px 45px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #172b4d;
+            border-bottom: 2px solid #4c8bf5;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.7;
+        }
+
+        .tarjetas {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .tarjeta {
+            padding: 20px;
+            background: #f4f7fb;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .tarjeta h3 {
+            margin-bottom: 8px;
+            color: #172b4d;
+        }
+
+        ul {
+            padding-left: 25px;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #172b4d;
+            color: white;
+        }
+
+        @media (max-width: 700px) {
+            .tarjetas {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hoja">
+
+        <header>
+            <h1>Juan Diego Vélez</h1>
+            <p>Estudiante · Aprendiz · Trabajador de campo</p>
+        </header>
+
+        <div class="contenido">
+
+            <section>
+                <h2>Acerca de mí</h2>
+                <p>
+                    Soy una persona a la que le gusta aprender cosas nuevas.
+                    Me interesan mucho los videojuegos y también tengo experiencia
+                    realizando trabajos de campo. Me considero una persona
+                    responsable, con ganas de aprender y mejorar cada día.
+                </p>
+            </section>
+
+            <section>
+                <h2>Mis intereses</h2>
+
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <h3>🎮 Videojuegos</h3>
+                        <p>Me gustan mucho los juegos y la tecnología.</p>
+                    </div>
+
+                    <div class="tarjeta">
+                        <h3>🌱 Trabajo de campo</h3>
+                        <p>Tengo experiencia realizando diferentes trabajos de campo.</p>
+                    </div>
+
+                    <div class="tarjeta">
+                        <h3>📚 Aprender</h3>
+                        <p>Me gusta aprender cosas nuevas y adquirir conocimientos.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Experiencia</h2>
+                <ul>
+                    <li>Trabajos de campo.</li>
+                    <li>Realización de diferentes labores agrícolas.</li>
+                    <li>Disposición para aprender nuevas actividades.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Responsabilidad</li>
+                    <li>Capacidad para aprender</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Adaptación a diferentes trabajos</li>
+                    <li>Interés por la tecnología</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Objetivo</h2>
+                <p>
+                    Seguir aprendiendo, adquirir experiencia y desarrollar nuevas
+                    habilidades que me permitan crecer tanto personal como
+                    profesionalmente.
+                </p>
+            </section>
+
+        </div>
+
+        <footer>
+            Juan Diego Vélez · Hoja de Vida
+        </footer>
+
+    </div>
+
+</body>
+</html>
+```
